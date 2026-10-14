@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hnefatafl · Manual de juego · 3DNQN</title>
+<meta name="description" content="Manual del Hnefatafl, el ajedrez vikingo: preparación, reglamento con diagramas, variantes e historia. Edición impresa en 3D por 3DNQN.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/estilo.css">
+</head>
+<body class="tafl">
+<main class="pagina">
+
+  <header class="marco">
+    <p class="sobretitulo">3DNQN · Juegos antiguos</p>
+    <h1>Hnefatafl</h1>
+    <img class="runas" src="runas.png" width="688" height="80" alt="Hnefatafl escrito en runas">
+    <p class="bajada">El ajedrez vikingo · La mesa del rey</p>
+  </header>
+
+  <ul class="indice">
+    <li><a href="#preparacion">Preparación</a></li>
+    <li><a href="#reglamento">Reglamento</a></li>
+    <li><a href="#variantes">Variantes</a></li>
+    <li><a href="#historia">Historia</a></li>
+  </ul>
+
+  <p class="ornamento">◆ ❖ ◆</p>
+
+  <p class="inicial">Tenés en tus manos una edición del Hnefatafl diseñada e impresa en 3D. Un rey y su guardia, rodeados por el doble de enemigos, intentan escapar del tablero. Acá encontrás el manual completo para leer desde el celular o descargar.</p>
+
+  <div class="botones">
+    <a class="boton" href="manual-hnefatafl.pdf" download>Descargar manual (PDF)</a>
+  </div>
+
+  <h2 id="preparacion">Preparación</h2>
+  <figure>
+    <img src="tablero.png" width="752" height="752" alt="Tablero de 11 por 11 en la posición inicial: el rey en el centro, doce defensores en cruz y veinticuatro atacantes en los bordes.">
+    <figcaption>Posición inicial. Las casillas rojas son las casillas del rey: el trono central y las cuatro esquinas.</figcaption>
+  </figure>
+
+  <div class="piezas">
+    <figure><img src="p_a.png" width="138" height="138" alt="Pieza atacante"><figcaption>24 atacantes</figcaption></figure>
+    <figure><img src="p_d.png" width="138" height="138" alt="Pieza defensora"><figcaption>12 defensores</figcaption></figure>
+    <figure><img src="p_k.png" width="138" height="138" alt="El rey"><figcaption>1 rey</figcaption></figure>
+  </div>
+
+  <h3>El tablero</h3>
+  <p>Es una cuadrícula de 11 × 11 casillas, simétrica en todas las direcciones. Cuarenta y una casillas están marcadas:</p>
+  <ul>
+    <li><strong>24 casillas de ataque,</strong> seis en el centro de cada borde, con una pieza oscura cada una.</li>
+    <li><strong>12 casillas de defensa</strong> alrededor del centro, cada una con una pieza clara.</li>
+    <li><strong>5 casillas del rey:</strong> las cuatro esquinas y el trono central, donde comienza el rey.</li>
+  </ul>
+
+  <h3>El objetivo</h3>
+  <p>Los bandos son desiguales y persiguen metas distintas. <strong>Los defensores</strong> (claros) ganan si su rey llega a una de las cuatro esquinas. <strong>Los atacantes</strong> (oscuros) ganan si capturan al rey antes de que escape.</p>
+
+  <h2 id="reglamento">Reglamento</h2>
+  <ol class="reglas">
+    <li><span class="regla">Quién empieza.</span> Abren siempre los atacantes. Después los jugadores se turnan, moviendo una sola pieza por turno.</li>
+    <li><span class="regla">Movimiento.</span> Todas las piezas, incluido el rey, se mueven como la torre del ajedrez: en línea recta, en horizontal o vertical, tantas casillas libres como se quiera. No pueden saltar otras piezas ni moverse en diagonal.</li>
+    <li><span class="regla">Casillas del rey.</span> Sólo el rey puede detenerse en el trono y en las esquinas.</li>
+  </ol>
+  <figure>
+    <img src="d_mov.png" width="496" height="368" alt="Una pieza se mueve en línea recta hasta encontrar un obstáculo." style="max-width:300px">
+    <figcaption>Una pieza avanza en línea recta hasta encontrar un obstáculo.</figcaption>
+  </figure>
+
+  <ol class="reglas" start="4">
+    <li><span class="regla">Captura por encierro.</span> Una pieza se captura cuando el rival mueve de modo que la deja atrapada entre dos de sus piezas, una a cada lado, en línea recta. La pieza capturada se retira de inmediato, y con un solo movimiento se pueden capturar varias.</li>
+    <li><span class="regla">Sólo captura quien mueve.</span> Una pieza puede meterse por su cuenta entre dos rivales sin ser capturada. Tampoco alcanza con quedar rodeada: sólo cuenta el encierro que provoca un movimiento del rival.</li>
+    <li><span class="regla">Las esquinas encierran.</span> Una esquina vacía funciona como una segunda pieza enemiga: una pieza junto a la esquina puede ser capturada por un solo rival.</li>
+  </ol>
+  <div class="par tres">
+    <figure><img src="d_cap.png" width="368" height="240" alt="Captura: la pieza oscura llega y encierra a la clara."><figcaption>La oscura llega y encierra: captura.</figcaption></figure>
+    <figure><img src="d_safe.png" width="368" height="240" alt="La pieza clara entra sola entre dos oscuras y queda a salvo."><figcaption>La clara entra sola: a salvo.</figcaption></figure>
+    <figure><img src="d_corner.png" width="304" height="240" alt="La esquina actúa como segunda pieza en la captura."><figcaption>La esquina hace de segunda pieza.</figcaption></figure>
+  </div>
+
+  <ol class="reglas" start="7">
+    <li><span class="regla">El rey en combate.</span> El rey puede participar en las capturas como cualquier otra pieza de su bando.</li>
+    <li><span class="regla">Captura del rey.</span> El rey es más difícil de atrapar: hay que rodearlo con piezas oscuras por sus cuatro lados, o por tres lados cuando el cuarto es el trono.</li>
+  </ol>
+  <div class="par">
+    <figure><img src="d_rey4.png" width="240" height="240" alt="Rey rodeado por cuatro atacantes."><figcaption>Rey rodeado por los cuatro lados.</figcaption></figure>
+    <figure><img src="d_rey3.png" width="304" height="240" alt="Rey rodeado por tres atacantes y el trono."><figcaption>Tres atacantes y el trono vacío.</figcaption></figure>
+  </div>
+  <ol class="reglas" start="9">
+    <li><span class="regla">Fin de la partida.</span> Si el rey alcanza una esquina, ganan los defensores. Si el rey es capturado, ganan los atacantes.</li>
+  </ol>
+
+  <h3>Una partida justa</h3>
+  <p>Como cada bando tiene fuerzas y objetivos distintos, conviene jugar un número par de partidas alternando los papeles: quien defendió en una ataca en la siguiente. Gana el encuentro quien sume más victorias.</p>
+
+  <h2 id="variantes">Variantes y consejos</h2>
+  <p>Los juegos tafl se jugaron de muchas formas y no existe una única versión correcta. Algunas de las más difundidas:</p>
+  <ul>
+    <li><strong>Rey al borde:</strong> el rey gana con sólo llegar a cualquier borde. Favorece a los defensores.</li>
+    <li><strong>Rey desarmado:</strong> el rey no puede capturar. Algunas sagas sugieren que así se jugaba.</li>
+    <li><strong>Rey débil:</strong> se captura entre dos piezas, como cualquier otra. Favorece a los atacantes.</li>
+    <li><strong>Rey en la orilla:</strong> si el rey está contra un borde, basta rodearlo por los tres lados disponibles.</li>
+    <li><strong>Aviso de escape:</strong> el defensor lo anuncia en voz alta, como un jaque, cuando el rey tiene camino libre a una esquina.</li>
+  </ul>
+  <h3>Consejos</h3>
+  <ul>
+    <li><strong>Atacantes:</strong> antes de perseguir capturas, cierren las esquinas formando diagonales de piezas junto a ellas.</li>
+    <li><strong>Defensores:</strong> abran líneas desde el principio. Si el rey amenaza dos esquinas a la vez, el rival sólo puede tapar una.</li>
+  </ul>
+
+  <h2 id="historia">Un poco de historia</h2>
+  <p class="inicial">Hnefatafl significa, aproximadamente, «la mesa del rey»: hnefi es el puño, nombre que recibía la pieza del rey, y tafl es el tablero. Fue el más importante de la familia de juegos tafl, que se jugaban en Escandinavia y el norte de Europa desde los primeros siglos de nuestra era, mucho antes de que llegara el ajedrez.</p>
+  <p>Los vikingos lo llevaron consigo en sus viajes. Se encontraron tableros y piezas en Noruega, Suecia, Islandia, Gran Bretaña e Irlanda, a veces dentro de tumbas y barcos funerarios, y las sagas islandesas lo mencionan como una destreza digna de nobles y guerreros. Cambió con cada tierra a la que llegó, con tableros desde 7 × 7 hasta 19 × 19 casillas.</p>
+  <p>Hacia el siglo XI comenzó a ser desplazado por el ajedrez y sus reglas se perdieron. Lo que hoy sabemos combina hallazgos arqueológicos, textos antiguos y bastante conjetura. La pista más valiosa la dejó el naturalista sueco Carl Linneo, que en 1732, durante un viaje por Laponia, anotó las reglas del Tablut, una variante que todavía jugaban los sami.</p>
+  <p>Mil años después de su apogeo, el juego vive un pequeño renacimiento gracias a clubes, torneos y partidas en línea de todo el mundo.</p>
+
+  <div class="botones">
+    <a class="boton" href="manual-hnefatafl.pdf" download>Descargar manual (PDF)</a>
+    <a class="boton secundario" href="../">Más juegos</a>
+  </div>
+
+  <footer>
+    <div class="marca">3DNQN</div>
+    <div>Juegos antiguos diseñados e impresos en 3D</div>
+  </footer>
+
+</main>
+</body>
+</html>
